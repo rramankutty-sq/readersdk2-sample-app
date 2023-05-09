@@ -1,0 +1,26 @@
+<h1>
+  List of Locations:
+</h1>
+<div>
+  <p>
+    <strong>Name</strong>: {{user.name}}
+  </p>
+  <p>
+    <strong>Email</strong>: {{user.email}}
+  </p>
+  <p>
+    <strong>Token Expires:</strong> {{user.tokenExp}}
+  </p>
+</div>
+
+<a href="/auth/revoke">
+  <button>
+    Revoke
+  </button>
+</a>
+
+<a href="/auth/refresh">
+  <button>
+    Refresh
+  </button>
+</a>
